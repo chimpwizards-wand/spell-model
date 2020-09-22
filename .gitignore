@@ -1,0 +1,6 @@
+.vscode
+dependencies
+model
+node_modules
+.meta
+PRIVATE*.md
