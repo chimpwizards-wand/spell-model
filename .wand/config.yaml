@@ -1,0 +1,30 @@
+dependencies:
+  - path: dependencies/cli
+    git: git@github.com:chimpwizards-wand/cli.git
+    tags:
+      - main
+      - cli    
+
+  - path: dependencies/commons
+    git: git@github.com:chimpwizards-wand/commons.git
+    tags:
+      - commons
+      - cli  
+
+  - path: dependencies/spells/config
+    git: git@github.com:chimpwizards-wand/spell-config.git
+    tags:
+      - spell
+      - cli        
+
+  - path: dependencies/spells/exec
+    git: git@github.com:chimpwizards-wand/spell-exec.git
+    tags:
+      - spell
+      - cli     
+
+  - path: dependencies/spells/workspace
+    git: git@github.com:chimpwizards-wand/spell-workspace.git
+    tags:
+      - spell
+      - cli   
