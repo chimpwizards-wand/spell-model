@@ -27,5 +27,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: 
         run: |
-          echo Build component
-          npm run build
+          echo ************************************
+          echo ** Release new version of the app **
+          echo ************************************
+
