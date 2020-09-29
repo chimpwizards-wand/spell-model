@@ -28,4 +28,4 @@ jobs:
       - name: 
         run: |
           echo This repository represents a container for the entire wand cli,
-          echo thjere its nothign to do here.
+          echo there is nothign to do here.
