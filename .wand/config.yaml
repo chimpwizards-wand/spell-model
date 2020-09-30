@@ -1,6 +1,6 @@
 dependencies:
-  - path: dependencies/cli
-    git: git@github.com:chimpwizards-wand/cli.git
+  - path: dependencies/main
+    git: git@github.com:chimpwizards-wand/main.git
     tags:
       - main
       - cli    
@@ -28,3 +28,9 @@ dependencies:
     tags:
       - spell
       - cli   
+
+  - path: dependencies/spells/hello
+    git: git@github.com:chimpwizards-wand/spell-hello.git
+    tags:
+      - spell
+      - cli         
