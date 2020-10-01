@@ -8,11 +8,7 @@
   },
   "scripts": {
     "test": "",
-    "build2": "wand exec 'npm run build'",
-    "build": "cd ./packages/main && npm run build",
-    "build-samples-model": "cd ./samples/model && npm run build",
-    "deploy": "npm run build; cd dist && npm pack | xargs npm i -g",
-    "postinstall": "w banner"
+    "build": ""
   },
   "husky": {
     "hooks": {
