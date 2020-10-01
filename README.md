@@ -18,6 +18,12 @@ WAND is concentrated to facilitate the developers burden while working with mult
 npm i -g @chimpwizards/wand
 ```
 
+##### Check the cli available commands and instructions how to use it
+
+```sh
+w --help
+```
+
 ##### Then create your new application workspace
 
 ```sh
@@ -32,7 +38,6 @@ code .
 ```sh
 w new dependency contacts
 ```
-
 
 ## Commands
 
