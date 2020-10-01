@@ -40,4 +40,6 @@ code .
 w new dependency contacts
 ```
 
-## Build a Helloworld application
+#### Next steps
+
+Build a hello world application step by step guide [here](docs/HELLOWORLD.md)
