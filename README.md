@@ -8,8 +8,7 @@ WAND is an extendable cli which is compose for a set of out-of-the-box plugins (
 
 WAND is concentrated to facilitate the developers burden while working with multiples repositories for an application
 
->Our opinion 
-We discourage the use of monorepos and prefer independent repositories per component.
+>We discourage the use of monorepos and prefer independent repositories per component.
 
 ## Get started
 
