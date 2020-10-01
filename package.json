@@ -1,6 +1,6 @@
 {
   "name": "@chimpwizard/wand",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "Magic happens everywhere",
   "main": "index.js",
   "bin": {
@@ -31,7 +31,7 @@
     "js-yaml": "^3.13.1",
     "lodash": "^4.17.15",
     "yargs": "^15.3.1",
-    "cli-progress": "^3.8.2",    
+    "cli-progress": "^3.8.2",
     "simple-git": "^2.20.1"
   },
   "devDependencies": {
