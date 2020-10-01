@@ -28,5 +28,3 @@ cd helloworld
 ## Commands
 
 ## How to extend it
-
-## Our opinion about monorepos
