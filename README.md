@@ -23,6 +23,7 @@ npm i -g @chimpwizards/wand
 ```sh
 w --help
 ```
+.. or check the list of available commands [here](docs/COMMANDS.md)
 
 ##### Then create your new application workspace
 
@@ -40,7 +41,3 @@ w new dependency contacts
 ```
 
 ## Build a Helloworld application
-
-## Available commands
-
-## How to extend it
