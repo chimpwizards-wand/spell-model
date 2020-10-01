@@ -39,6 +39,8 @@ code .
 w new dependency contacts
 ```
 
-## Commands
+## Build a Helloworld application
+
+## Available commands
 
 ## How to extend it
