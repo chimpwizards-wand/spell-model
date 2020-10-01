@@ -33,9 +33,13 @@ dependencies:
     tags:
       - dependencies
       - spells
-  - path: dependencies/spells/workspace/xyz
+  - path: dependencies/spells/workspace/tmp/wand
     tags:
       - workspace
-      - xyz
-    git: 'git@github.com:acme/helloworld.git'
-local: {}
+      - wand
+    git: 'git@github.com:chimpwizards/wand.git'
+  - path: dependencies/spells/workspace/tmp/abc2
+    tags:
+      - workspace
+      - abc2
+    git: 'git@github.com:chimpwizards/abc2'

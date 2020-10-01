@@ -7,7 +7,7 @@
     "w": "./index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "",
     "build2": "wand exec 'npm run build'",
     "build": "cd ./packages/main && npm run build",
     "build-samples-model": "cd ./samples/model && npm run build",
