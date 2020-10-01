@@ -12,18 +12,28 @@ WAND is concentrated to facilitate the developers burden while working with mult
 
 ## Get started
 
-Start by installing WAND.
+##### Start by installing WAND.
 
 ```sh
 npm i -g @chimpwizards/wand
 ```
 
-Then create your new application workspace
+##### Then create your new application workspace
 
 ```sh
-wand new workspace helloworld --organization git@github.com:ACME
+w new workspace helloworld \
+    --organization git@github.com:ACME
 cd helloworld
+code .
 ```
+
+##### Then add your application components/dependency/microservices
+
+```sh
+w new dependency contacts \
+    --template microservice --model ./models/contacts.wml
+```
+
 
 ## Commands
 
