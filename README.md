@@ -30,8 +30,7 @@ code .
 ##### Then add your application components/dependency/microservices
 
 ```sh
-w new dependency contacts \
-    --template microservice --model ./models/contacts.wml
+w new dependency contacts
 ```
 
 
