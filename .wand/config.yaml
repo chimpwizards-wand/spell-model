@@ -33,3 +33,9 @@ dependencies:
     tags:
       - dependencies
       - spells
+  - path: dependencies/spells/workspace/xyz
+    tags:
+      - workspace
+      - xyz
+    git: 'git@github.com:acme/helloworld.git'
+local: {}
