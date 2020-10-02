@@ -4,33 +4,42 @@ dependencies:
     tags:
       - dependencies
   - path: dependencies/commons/
-    git: 'https://github.com/chimpwizard-wand/_git/commons'
+    git: 'https://github.com/chimpwizards-wand/_git/commons'
     tags:
       - dependencies
       - commons
   - path: dependencies/spells/config
-    git: 'https://github.com/chimpwizard-wand/_git/spell-config'
+    git: 'https://github.com/chimpwizards-wand/_git/spell-config'
     tags:
       - dependencies
       - spells
   - path: dependencies/spells/shell
-    git: 'https://github.com/chimpwizard-wand/_git/spell-shell'
+    git: 'https://github.com/chimpwizards-wand/_git/spell-shell'
     tags:
       - dependencies
       - spells
   - path: dependencies/spells/hello
-    git: 'https://github.com/chimpwizard-wand/_git/spell-hello'
+    git: 'https://github.com/chimpwizards-wand/_git/spell-hello'
     tags:
       - dependencies
       - spells
   - path: dependencies/spells/spells
-    git: 'https://github.com/chimpwizard-wand/_git/spell-spells'
+    git: 'https://github.com/chimpwizards-wand/_git/spell-spells'
     tags:
       - dependencies
       - spells
   - path: dependencies/spells/workspace
-    git: 'https://github.com/chimpwizard-wand/_git/spell-workspace'
+    git: 'https://github.com/chimpwizards-wand/_git/spell-workspace'
     tags:
       - dependencies
       - spells
-
+  - path: dependencies/spells/workspace/tmp/main
+    tags:
+      - workspace
+      - main
+    git: 'git@github.com:chimpwizards-wand/main.git'
+  - path: dependencies/spells/workspace/wand
+    tags:
+      - workspace
+      - wand
+    git: 'git@github.com:chimpwizards/wand.git'
