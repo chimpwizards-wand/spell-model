@@ -3,4 +3,5 @@ dependencies
 model
 node_modules
 .meta
-PRIVATE*.mdpackage-lock.json
+PRIVATE*.md
+package-lock.json
