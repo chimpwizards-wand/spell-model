@@ -1,6 +1,6 @@
 dependencies:
   - path: dependencies/main
-    git: 'git@github.com:chimpwizards/wand.git'
+    git: 'git@github.com:chimpwizards-wand/main.git'
     tags:
       - dependencies
   - path: dependencies/commons/
