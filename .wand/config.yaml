@@ -33,8 +33,4 @@ dependencies:
     tags:
       - dependencies
       - spells
-  - path: tmp/wand
-    tags:
-      - workspace
-      - wand
-    git: 'git@github.com:chimpwizards/wand.git'
+
