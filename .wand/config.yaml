@@ -33,4 +33,6 @@ dependencies:
     tags:
       - dependencies
       - spells
-
+scripts:
+  hello: ./scripts/hello.sh
+  abc: scripts/abc
