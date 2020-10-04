@@ -35,4 +35,4 @@ dependencies:
       - spells
 scripts:
   hello: ./scripts/hello.sh
-  abc: scripts/abc
+  start-ssh: scripts/start-ssh-agent.sh
