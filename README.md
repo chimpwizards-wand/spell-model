@@ -38,11 +38,11 @@ code .
 w new dependency contacts
 ```
 
-##### Next steps
+<!-- ##### Next steps
 
 Build a hello world application step by step guide [here](docs/HELLOWORLD.md)
 
 
 ## Need help?
 
-Connect with us in [slack #wand](https://chimpwizards.slack.com/) or visit our [youtube channel](https://www.youtube.com/channel/UCvAjK8O5_gwR43vR4ltHkLA)
+Connect with us in [slack #wand](https://chimpwizards.slack.com/) or visit our [youtube channel](https://www.youtube.com/channel/UCvAjK8O5_gwR43vR4ltHkLA) -->

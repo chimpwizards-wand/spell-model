@@ -30,6 +30,21 @@ Additionally some extra options to filter what type of dependencies top apply th
 w shell --tags microservice git checkout -b release/2.3
 ```
 
+Commands can also be customized, additional commands can be added using `new shell` command (see below)  which will store the definition inside the wand config file. Additionally `shell` command also will look if a command is alredy defined in an existing package.json at the root of the workspce.
+
+eg this command will run the existing sayHi command across all dependencies
+
+```json
+  "scripts": {
+    "test": "",
+    "build": "",
+    "sayHi": "echo 'Hi'"
+  },
+```
+```sh
+w shell --verbose sayHi
+```
+
 ##### new shell
 
 Enable external shell scripts to be executed thru the wand cli, these command get registered into the .wand/config.yaml file
