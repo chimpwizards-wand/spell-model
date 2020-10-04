@@ -1,3 +1,5 @@
+name: wand
+organization: 'git@github.com:chimpwizards-wand'
 dependencies:
   - path: dependencies/main
     git: 'git@github.com:chimpwizards-wand/main.git'
@@ -33,6 +35,22 @@ dependencies:
     tags:
       - dependencies
       - spells
+  - path: dependencies/abc
+    git: 'git@github.com:chimpwizards-wand/wand-abc.git'
+    tags:
+      - dependencies
+      - abc
+  - path: dependencies/xyz/xyz2
+    git: 'git@github.com:chimpwizards-wand/wand-xyz2.git'
+    tags:
+      - dependencies
+      - xyz
+      - xyz2
+  - path: dependencies/xyz3
+    git: 'git@github.com:chimpwizards-wand/wand-xyz3.git'
+    tags:
+      - dependencies
+      - xyz3
 scripts:
   hello: ./scripts/hello.sh
   start-ssh: scripts/start-ssh.sh

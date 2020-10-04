@@ -79,3 +79,12 @@ Clone a existing namespace and the all dependencies into the current folder
 ```sh
 w workspace clone git@github.com:chimpwizards/wand.git
 ```
+
+##### new dependency
+
+Create a new dependency in the current workspace 
+
+```sh
+w new dependency contacts
+cd dependencies/contacts
+```
