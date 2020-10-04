@@ -4,9 +4,7 @@ An extendable cli for developers who work with multi-repo application.
 
 ## About
 
-WAND is an extendable cli which is compose for a set of out-of-the-box plugins (aka: spells)  to speed-up the developers working with multi components/microservices applications.
-
-WAND is concentrated to facilitate the developers burden while working with multiples repositories for an application
+WAND is an extendable cli which is compose for a set of out-of-the-box plugins (aka: spells)  to reduce the burden developers have while working with multiples repositories for an application
 
 >We discourage the use of monorepos and prefer independent repositories per component.
 
