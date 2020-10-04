@@ -44,6 +44,6 @@ Build a hello world application step by step guide [here](docs/HELLOWORLD.md) --
 
 ## Need help?
 
-... visit our [youtube channel](https://www.youtube.com/channel/UCvAjK8O5_gwR43vR4ltHkLA)
+... visit our [youtube channel](https://www.youtube.com/channel/UCvAjK8O5_gwR43vR4ltHkLA) or email us to [gethelp@chimpwizard.com](mailto:gethelp@chimpwizard.com)
 
 <!-- Connect with us in [slack #wand](https://chimpwizards.slack.com/) or visit our [youtube channel](https://www.youtube.com/channel/UCvAjK8O5_gwR43vR4ltHkLA) -->
