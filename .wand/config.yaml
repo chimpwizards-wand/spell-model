@@ -35,6 +35,12 @@ dependencies:
     tags:
       - dependencies
       - spells
+  - path: dependencies/spells/model
+    git: 'git@github.com:chimpwizards-wand/spell-model.git'
+    tags:
+      - dependencies
+      - spells
 scripts:
   hello: ./scripts/hello.sh
   start-ssh: scripts/start-ssh.sh
+  new-spell: scripts/new-spell.sh
