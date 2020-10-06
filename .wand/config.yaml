@@ -1,45 +1,62 @@
 name: wand
-organization: 'git@github.com:chimpwizards-wand'
+organization: 'https://github.com/chimpwizards-wand'
 dependencies:
   - path: dependencies/main
-    git: 'git@github.com:chimpwizards-wand/main.git'
+    git: 'https://github.com/chimpwizards-wand/main.git'
     tags:
       - dependencies
   - path: dependencies/commons/
-    git: 'git@github.com:chimpwizards-wand/commons.git'
+    git: 'https://github.com/chimpwizards-wand/commons.git'
     tags:
       - dependencies
       - commons
   - path: dependencies/spells/config
-    git: 'git@github.com:chimpwizards-wand/spell-config.git'
+    git: 'https://github.com/chimpwizards-wand/spell-config.git'
     tags:
       - dependencies
       - spells
   - path: dependencies/spells/shell
-    git: 'git@github.com:chimpwizards-wand/spell-shell.git'
+    git: 'https://github.com/chimpwizards-wand/spell-shell.git'
     tags:
       - dependencies
       - spells
   - path: dependencies/spells/hello
-    git: 'git@github.com:chimpwizards-wand/spell-hello.git'
+    git: 'https://github.com/chimpwizards-wand/spell-hello.git'
     tags:
       - dependencies
       - spells
   - path: dependencies/spells/spells
-    git: 'git@github.com:chimpwizards-wand/spell-spells.git'
+    git: 'https://github.com/chimpwizards-wand/spell-spells.git'
     tags:
       - dependencies
       - spells
   - path: dependencies/spells/workspace
-    git: 'git@github.com:chimpwizards-wand/spell-workspace.git'
+    git: 'https://github.com/chimpwizards-wand/spell-workspace.git'
     tags:
       - dependencies
       - spells
   - path: dependencies/spells/model
-    git: 'git@github.com:chimpwizards-wand/spell-model.git'
+    git: 'https://github.com/chimpwizards-wand/spell-model.git'
     tags:
       - dependencies
       - spells
+  - path: tools/xterm
+    git: 'git@github.com:chimpwizards-tools/xterm.git'
+    tags:
+      - tools
+      - xterm
+  - path: dependencies/vscode/extension
+    git: 'https://github.com/chimpwizards-wand/wand-extension.git'
+    tags:
+      - dependencies
+      - vscode
+      - extension
+  - path: dependencies/xyz/xyz1
+    git: 'https://github.com/chimpwizards-wand/wand-xyz.git'
+    tags:
+      - dependencies
+      - xyz
+      - xyz1
 scripts:
   hello: ./scripts/hello.sh
   start-ssh: scripts/start-ssh.sh

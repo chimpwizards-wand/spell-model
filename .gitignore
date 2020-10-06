@@ -1,4 +1,6 @@
 .vscode
+channel
+tools
 dependencies
 model
 node_modules
@@ -21,3 +23,5 @@ dependencies/abc
 dependencies/xyz/xyz2
 dependencies/xyz3
 /Users/afuentes009/projetcs/chimpwizard/wand/dependencies/spells/model
+dependencies/xterm
+dependencies/vscode/extension
